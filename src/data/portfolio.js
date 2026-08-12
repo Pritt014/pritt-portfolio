@@ -210,7 +210,7 @@ export const featuredProjects = [
       "/projects/fuzu-school",
 
     live:
-      "https://www.fuzuschool.sc.ke",
+      "https://fuzu-school-ebta21ks6-pritt.vercel.app/",
 
     image: fuzuSchool,
 
