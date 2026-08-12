@@ -175,7 +175,8 @@ export const featuredProjects = [
     page:
       "/projects/nimba",
 
-    live: "",
+    live:
+      "https://nimba-8sti.onrender.com/",
 
     image: nimba,
 
