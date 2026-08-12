@@ -142,7 +142,7 @@ export const featuredProjects = [
       "/projects/kbc-listen",
 
     live:
-      "https://69e8c82f25406927c5bacc38--kbc-listen.netlify.app/",
+      "https://kbc-listen.netlify.app/",
 
     image: kbcListen,
 
