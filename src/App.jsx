@@ -33,6 +33,33 @@ function Home() {
   );
 }
 
+function NotFound() {
+  return (
+    <main className="flex min-h-screen items-center justify-center bg-[#050816] px-6 text-center text-white">
+      <div>
+        <p className="text-sm uppercase tracking-[0.3em] text-sky-400">
+          404
+        </p>
+
+        <h1 className="mt-4 text-4xl font-black sm:text-6xl">
+          Page Not Found
+        </h1>
+
+        <p className="mx-auto mt-4 max-w-md text-gray-400">
+          The page you&apos;re looking for doesn&apos;t exist.
+        </p>
+
+        <a
+          href="/"
+          className="mt-8 inline-flex rounded-xl bg-sky-500 px-6 py-3 font-semibold text-white transition hover:bg-sky-400"
+        >
+          Back Home
+        </a>
+      </div>
+    </main>
+  );
+}
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -47,7 +74,7 @@ export default function App() {
             element={<Home />}
           />
 
-          {/* All Projects */}
+          {/* Projects */}
           <Route
             path="/projects"
             element={<Projects />}
@@ -98,6 +125,12 @@ export default function App() {
           <Route
             path="/projects/metasploitable2-pentest"
             element={<Metasploitable2 />}
+          />
+
+          {/* Fallback */}
+          <Route
+            path="*"
+            element={<NotFound />}
           />
         </Routes>
       </Layout>
