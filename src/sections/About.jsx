@@ -134,18 +134,9 @@ export default function About() {
                   <span className="font-medium text-cyan-400 sm:text-right">
                     React • Node.js
                   </span>
+               
                 </div>
-
-                <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
-                  <span className="text-gray-400">
-                    Location
-                  </span>
-
-                  <span className="font-medium text-cyan-400 sm:text-right">
-                    Nairobi, Kenya
-                  </span>
-                </div>
-
+   
               </div>
             </div>
           </div>
